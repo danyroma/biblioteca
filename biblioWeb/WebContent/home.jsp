@@ -5,8 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<link href="/cssFolder/consoleJ.css" rel="stylesheet" type="text/css"/>
-<style type="text/css">
 
+<style type="text/css">
 .container {
 	padding: 20px;
 	margin: 0 auto;
