@@ -4,8 +4,27 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<link href="/cssFolder/giustizia.css" rel="stylesheet" type="text/css"/>
 	<link href="/cssFolder/consoleJ.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+.container {
+	padding: 20px;
+	margin: 0 auto;
+	width: 600px;
+	text-align: center;
+	background-color: #efefef;
+}
+.pulsante {
+ outline: none;
+ cursor: pointer;
+ text-align: center;
+ text-decoration: none;
+ font: bold 12px Arial, Helvetica, sans-serif;
+ color: #fff;
+ padding: 10px 20px;
+ border: solid 1px #0076a3;
+ background: #0095cd;
+}
+</style>
 <title>Biblioteca Web</title>
 </head>
 <body>
@@ -15,7 +34,9 @@
 	<hr>
 	<br>
 	Benvenuto nella biblioteca del Ministero della Giustizia.<br>
-	<img src="img/entra.png"/><br>
+	<div class="container">
+	<button class="pulsante">Entra</button>
+	</div><br>
 	<img src="img/registrati.png"/><br>
 	<br>
 	<hr/>
