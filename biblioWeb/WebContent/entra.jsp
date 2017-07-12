@@ -46,5 +46,13 @@
         <input class="pulsante" type="submit" value="login" />
         </form> 
        </div>
+       
+       <div class="footer"> 
+	Versione Applicazione ----. Per maggiori informazioni visita la pagina <a href="about.jsp">About</a><br>
+	Il tuo IP è <% out.println(request.getRemoteHost()); %><br>
+	Il Browser è <% out.println( request.getHeader("user-agent")); %><br>
+	Dominio <% out.println(System.getenv("COMPUTERNAME")); %>, Utente <% out.println(System.getenv("USERNAME")); %>, Pc <% out.println(System.getenv("USERDOMAIN")); %><br>
+	Sviluppato da (c) - Ministero della Giustizia - DGSIA.
+	</div>
 </body>
 </html>
