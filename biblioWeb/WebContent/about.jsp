@@ -54,5 +54,9 @@
 		<a href="documenti/Documentazione Tecnica.docx" target="_blank">Documentazione Tecnica</a><br>
 		<a href="documenti/Utente Finale.docx" target="_blank">Documento Utente</a><br>
 	</p></div>
+	
+	<div class="container">
+		<button class="pulsante" onclick="javascript:location.href='home.jsp'">Home Page</button>
+	</div>
 </body>
 </html>
