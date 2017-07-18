@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<link href="/cssFolder/consoleJ.css" rel="stylesheet" type="text/css"/>
+	<link href="cssFolder/consoleJ.css" rel="stylesheet" type="text/css"/>
 
 <style type="text/css">
 .container {
@@ -52,7 +52,7 @@
 	<hr/>
 	<div class="footer"> 
 	<button class="pulsante" onclick="javascript:location.href='adminSection/loginAdmin.jsp'">Admin Page</button>
-	
+	<br>
 	Versione Applicazione ----. Per maggiori informazioni visita la pagina <a href="about.jsp">About</a><br>
 	Il tuo IP è <% out.println(request.getRemoteHost()); %><br>
 	Il Browser è <% out.println( request.getHeader("user-agent")); %><br>
